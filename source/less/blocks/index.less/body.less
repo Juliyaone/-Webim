@@ -1,0 +1,1035 @@
+.chat {
+  position: fixed;
+  bottom: 1px;
+  right: 34px;
+  z-index: 5;
+}
+
+.chat-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #06d6d6;
+  border: 1px solid #0f68e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.5px 1px 3px 0;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 85px;
+  padding-bottom: 35px;
+}
+
+.installation {
+  background-color: #eff4f4;
+}
+
+.installation-html {
+  background-color: #eff4f4;
+}
+
+.installation__header {
+  text-transform: uppercase;
+  color: #393e6b;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 0.8px;
+}
+
+.installation__header-1 {
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 33px;
+}
+
+.installation__header--hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.installation__header--active {
+  transition-duration: 1s;
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+.installation__header-2 {
+  margin-bottom: 17px;
+  letter-spacing: 0.5px;
+}
+
+.installation__header-2 br {
+  display: none;
+}
+
+.installation__header-3 {
+  margin-bottom: 65px;
+  margin-top: 7px;
+  letter-spacing: 0.5px;
+}
+
+.installation__header-3 br {
+  display: none;
+}
+
+.installation__header-4 {
+  margin-bottom: 30px;
+}
+
+.installation__header-5 {
+  margin-bottom: 15px;
+}
+
+.installation__header-5 br {
+  display: none;
+}
+
+.installation__content {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.installation__link-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.installation__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  border: 1px solid #2cd3b8;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #393e6b;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.installation__try {
+  background-color: #2cd3b8;
+  color: #ffffff;
+}
+
+.installation__tariffs {
+  border: 1px solid #393e6b;
+}
+
+.installation-easy__block-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+.installation-easy__block {
+  max-width: 145px;
+}
+
+.installation-easy__content {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.installation-easy__img-numeral {
+  position: relative;
+  left: -10px;
+  font-size: 148px;
+  line-height: 148px;
+  font-weight: bold;
+  color: #e1e2e9;
+  margin-bottom: 5px;
+}
+
+.installation-easy__block:nth-child(2) .installation-easy__img-numeral {
+  left: -5px;
+}
+
+.installation-easy__img {
+  position: absolute;
+  left: 51px;
+  top: 44px;
+}
+
+.installation-easy__link {
+  color: #0da088;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.installation-easy__link-elem {
+  text-transform: uppercase;
+}
+
+.installation-html__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.installation-html__item {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.installation-html__item:nth-child(4) {
+  margin-bottom: 48px;
+}
+
+.installation-html__title-wrapper {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.installation-html__item-title {
+  position: relative;
+  color: #0da088;
+  font-size: 24px;
+  line-height: 34px;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #0da088;
+}
+
+.installation-html__item-title::before {
+  position: absolute;
+  top: 12px;
+  left: -20px;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3b4269;
+}
+
+.installation-html__item-content {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  margin: 0;
+  padding: 0;
+}
+
+.installation-html__content-bold {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.installation-for-operators__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.installation-for-operators__item {
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+
+.installation-for-operators__link {
+  position: relative;
+  color: #0da088;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 2px solid #0da088;
+}
+
+.installation-for-operators__link-wrapper {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.installation-for-operators__link::before {
+  position: absolute;
+  top: 12px;
+  left: -20px;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3b4269;
+}
+
+.installation-for-operators__content-title {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.installation-for-operators__content {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 0;
+}
+
+.installation-for-operators__item:last-child {
+  margin-bottom: 0;
+}
+
+.after-installation {
+  background-color: #eff4f4;
+}
+
+.after-installation_content-title {
+  color: #74757b;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: .4px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.after-installation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 70px;
+}
+
+.after-installation__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.after-installation__img {
+  min-width: 75px;
+  min-height: 75px;
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 30px;
+}
+
+.after-installation__content {
+  font-size: 18px;
+  line-height: 24px;
+  color: #393e6b;
+  margin: 0;
+}
+
+.after-installation__content-bold {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.after-installation__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.after-installation__link {
+  width: auto;
+  height: auto;
+  border: 3px solid #393e6b;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 30px;
+  background-color: #393e6b;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.after-installation__link-capabilities {
+  background-color: #2cd3b8;
+  border: 3px solid #2cd3b8;
+}
+
+.integration-by-social__content {
+  padding: 0;
+  margin: 0;
+  color: #3b4269;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+
+.integration-by-social__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.integration-by-social__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.integration-by-social__img {
+  margin-right: 29px;
+  max-width: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  min-height: 40px;
+}
+
+.integration-by-social__item-content-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.integration-by-social__item-content {
+  color: #0da088;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 2px solid #0da088;
+}
+
+
+@media (min-width: 750px) {
+  .container {
+    padding-left: 67px;
+    padding-right: 67px;
+    padding-bottom: 75px;
+  }
+
+  .installation__header {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 2px;
+  }
+
+  .installation__header-1 {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 53px;
+  }
+
+  .installation__header-2 {
+    margin-top: 6px;
+    margin-bottom: 48px;
+  }
+
+  .installation__header-2 br {
+    display: block;
+  }
+
+  .installation__header-3 {
+    margin-bottom: 55px;
+    margin-top: 0;
+    letter-spacing: 2px;
+  }
+
+  .installation__header-3 br {
+    display: block;
+  }
+
+  .installation__header-4 {
+    margin-bottom: 50px;
+  }
+
+  .installation__header-5 {
+    margin-bottom: 45px;
+  }
+
+  .installation__header-5 br {
+    display: block;
+  }
+
+  .installation__content {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 90px;
+    letter-spacing: 0.1px;
+  }
+
+  .installation__link-wrapper {
+    justify-content: space-between;
+  }
+
+  .installation__link {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+  }
+
+  .installation__tariffs {
+    border: 3px solid #393e6b;
+    margin-bottom: 0;
+  }
+
+  .installation__try {
+    border: 3px solid #2cd3b8;
+  }
+
+  .installation-easy__content {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 65px;
+    letter-spacing: 0.1px;
+  }
+
+  .installation-easy__link {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .installation-easy__block-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .installation-easy__block:nth-child(1) .installation-easy__link {
+    margin-left: 40px;
+  }
+
+  .installation-easy__block:nth-child(2) .installation-easy__img-numeral {
+    left: -47px;
+  }
+
+  .installation-html__list {
+    margin-bottom: 25px;
+  }
+
+  .installation-html__item-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .installation-html__item-content {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+
+  .installation-html__item {
+    margin-left: 40px;
+    margin-bottom: 60px;
+  }
+
+  .installation-html__item:nth-child(4) {
+    margin-bottom: 60px;
+  }
+
+  .installation-html__item:last-child {
+    margin-bottom: 0;
+  }
+
+
+  .installation-html__item-title::before {
+    left: -40px;
+    width: 11px;
+    height: 11px;
+  }
+
+  .installation-html__title-wrapper {
+    margin-bottom: 33px;
+  }
+
+  .installation-for-operators__content-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 80px;
+  }
+
+  .installation-for-operators__list {
+    margin-bottom: 5px;
+  }
+
+  .installation-for-operators__item {
+    margin-bottom: 62px;
+    margin-left: 40px;
+  }
+
+  .installation-for-operators__link-wrapper {
+    margin-bottom: 35px;
+  }
+
+  .installation-for-operators__link {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .installation-for-operators__content {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .installation-for-operators__link::before {
+    left: -40px;
+    width: 11px;
+    height: 11px;
+  }
+
+  .after-installation_content-title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 72px;
+  }
+
+  .after-installation__content {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .after-installation__content-bold {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .installation-html__content-bold {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .after-installation__img {
+    margin-right: 45px;
+    min-width: 103px;
+    min-height: 103px;
+    max-width: 103px;
+    max-height: 103px;
+  }
+
+  .after-installation__link-wrapper {
+    margin-bottom: 0;
+  }
+
+  .after-installation__link {
+    font-size: 26px;
+    line-height: 26px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    letter-spacing: 0.8px;
+    margin-bottom: 35px;
+  }
+
+  .after-installation__link:nth-child(2) {
+    margin-bottom: 25px;
+  }
+
+  .after-installation__list {
+    margin-bottom: 100px;
+  }
+
+  .after-installation__item {
+    margin-bottom: 40px;
+  }
+
+  .integration-by-social__content {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .integration-by-social__item-content {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .integration-by-social__img {
+    margin-right: 45px;
+    max-width: 67px;
+    min-width: 67px;
+    max-height: 67px;
+    min-height: 67px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 75px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+
+  .installation__header {
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+  }
+
+  .installation__header-1 {
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 33px;
+  }
+
+  .installation__header-2 {
+    margin-bottom: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+  }
+
+  .installation__header-2 br {
+    display: none;
+  }
+
+  .installation__header-3 {
+    margin-bottom: 65px;
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+  }
+
+  .installation__header-3 br {
+    display: none;
+  }
+
+  .installation__header-4 {
+    margin-bottom: 30px;
+  }
+
+  .installation__header-5 {
+    margin-bottom: 15px;
+  }
+
+  .installation__header-5 br {
+    display: none;
+  }
+
+  .installation__content {
+    max-width: 670px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin-bottom: 55px;
+  }
+
+  .installation__link-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 532px;
+  }
+
+  .installation__link {
+    min-width: 253px;
+    max-width: 253px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 28px;
+  }
+
+  .installation__tariffs {
+    border: 1px solid #393e6b;
+    margin-bottom: 30px;
+  }
+
+  .installation__try {
+    border: 1px solid #2cd3b8;
+  }
+
+  .installation-easy__content {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 55px;
+    letter-spacing: 0.4px;
+  }
+
+  .installation-easy__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .installation-easy__block-wrapper {
+    margin-bottom: 50px;
+    max-width: 460px;
+  }
+
+  .installation-easy__block {
+    max-width: 230px;
+  }
+
+  .installation-easy__img-numeral {
+    left: -50px;
+  }
+
+  .installation-easy__img {
+    width: 50px;
+    height: 50px;
+    left: 45px;
+    top: 64px;
+  }
+
+  .installation-easy__block:nth-child(1) .installation-easy__link {
+    margin-left: 0;
+  }
+
+  .installation-html__list {
+    margin-bottom: 50px;
+  }
+
+  .installation-html__item-title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .installation-html__title-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .installation-html__item-content {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+  }
+
+  .installation-html__item {
+    margin-left: 35px;
+    margin-bottom: 40px;
+  }
+
+  .installation-html__item:nth-child(4) {
+    margin-bottom: 48px;
+  }
+
+  .installation-html__item:last-child {
+    margin-bottom: 40px;
+  }
+
+  .installation-html__item-title::before {
+    left: -35px;
+    width: 8px;
+    height: 8px;
+  }
+
+  .installation-for-operators__content-title {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+  }
+
+  .installation-for-operators__link-wrapper {
+    margin-bottom: 12px;
+  }
+
+  .installation-for-operators__link {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .installation-for-operators__content {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .installation-for-operators__list {
+    margin-bottom: 40px;
+  }
+
+  .installation-for-operators__item {
+    margin-left: 35px;
+    margin-bottom: 45px;
+  }
+
+  .installation-for-operators__item:nth-child(3) {
+    margin-bottom: 25px;
+  }
+
+  .installation-for-operators__item:nth-child(4) {
+    margin-bottom: 30px;
+  }
+
+  .installation-for-operators__link::before {
+    left: -35px;
+    width: 8px;
+    height: 8px;
+  }
+
+  .after-installation_content-title {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    margin-bottom: 55px;
+  }
+
+  .after-installation_content-title br {
+    display: none;
+  }
+
+  .after-installation__content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .after-installation__content-bold {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .installation-html__content-bold {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .after-installation__list {
+    margin-bottom: 70px;
+  }
+
+  .after-installation__item {
+    margin-bottom: 30px;
+  }
+
+  .after-installation__img {
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 75px;
+    max-height: 75px;
+    margin-right: 30px;
+  }
+
+  .after-installation__link-wrapper {
+    max-width: 565px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .after-installation__link {
+    min-width: 260px;
+    max-width: 260px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+  }
+
+  .after-installation__link:nth-child(2) {
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 30px;
+  }
+
+  .integration-by-social__content {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 73px;
+    margin-top: -13px;
+  }
+
+  .integration-by-social__item-content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .integration-by-social__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .integration-by-social__item-content-wrapper {
+    padding-left: 70px;
+  }
+
+  .integration-by-social__item {
+    position: relative;
+    align-items: baseline;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 46px;
+    margin-right: 55px;
+    margin-bottom: 36px;
+  }
+
+  .integration-by-social__img {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    margin-right: 29px;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+  }
+
+  .integration-by-social__item:nth-child(1) {
+    order: 1;
+  }
+
+  .integration-by-social__item:nth-child(2) {
+    order: 4;
+  }
+
+  .integration-by-social__item:nth-child(3) {
+    order: 7;
+  }
+
+  .integration-by-social__item:nth-child(4) {
+    order: 2;
+  }
+
+  .integration-by-social__item:nth-child(5) {
+    order: 5;
+  }
+
+  .integration-by-social__item:nth-child(6) {
+    order: 3;
+  }
+
+  .integration-by-social__item:nth-child(7) {
+    order: 6;
+  }
+
+}
